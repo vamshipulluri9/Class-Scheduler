@@ -1,0 +1,19 @@
+.ListView{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    overflow: auto;
+}
+
+.ListView .ListWrapper{
+    width: 100%;
+    height: 85%;
+    overflow: auto;
+}
+
+.ListView .addClassToDate{
+    width: 100%;
+    height: 15%;
+}

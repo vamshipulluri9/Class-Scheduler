@@ -1,0 +1,18 @@
+.LoginDetails{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    position: fixed;
+    left: 25%;
+    top: 25%;
+    height: 50vh;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid red;
+    background-color: #ffc2bd;
+    overflow: auto;
+}
+
+.loginDetails label{
+    margin: 10px;
+}

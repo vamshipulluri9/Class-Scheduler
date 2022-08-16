@@ -1,0 +1,47 @@
+.dayClasses{
+    text-align: center;
+    display: flex;
+    min-width: 100px ;
+    min-height: 100px;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+}
+
+.dayClasses .datenevents{
+    height: 100%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    transition: 1s;
+}
+
+.dayClasses .datenevents a{
+    color: black;
+}
+
+.dayClasses .datenevents div:first-child{
+    font-weight: bold;
+    color: red;
+    font-size: 20px;
+
+}
+
+.dayClasses .datenevents:hover{
+    background-color:#ffaba3 ;
+    font-weight: bolder;
+}
+
+.dayClasses .addClassToDate{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.dayClasses .addClassToDate button:hover{
+    color: red;
+}

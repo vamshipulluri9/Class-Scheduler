@@ -1,0 +1,99 @@
+.tableResponsive {
+    width: 100%;
+    min-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.tableHeading{
+    width: 100%;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+    flex-grow: 1;
+}
+
+.tableHeaders{
+    width: 100%;
+    display: flex;
+    font-size: 25px;
+    font-weight: bold;
+    flex-grow: 1;
+}
+
+.tableHeaderCell{
+    display: block;
+    border: 1px black solid;
+    text-align: center;
+    width : 170px;
+    flex-grow: 1;
+    
+}
+
+.tableBody{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    flex-grow: 3;
+}
+
+.tableRow{
+    display: flex;
+    width: 100%;
+    flex-grow: 1;
+}
+
+.tableBodyCell{
+    display: block;
+    min-height: 100px;
+    width: 170px;
+    flex-grow: 1;
+    border: 1px black solid;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+
+.homepage{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+}
+
+.homepage .sideSelector{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    height: 100%;
+    justify-content: space-evenly;
+    border-right:2px solid red ;
+    background-color: #ffc2bd;
+    overflow: auto;
+    padding : 0em 1em;
+}
+
+.sideSelector .navigator div:last-child{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.homepage .viewer{
+    width: 85%;
+    height: 100%;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.homepage .viewer h1{
+    height: 5%;
+    width: 100%;
+}
+.homepage .viewer .viewDiv{
+    height: 95%;
+    width: 100%;
+    overflow: auto;
+}
+

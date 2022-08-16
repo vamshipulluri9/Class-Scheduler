@@ -1,0 +1,84 @@
+.tableResponsive {
+    width: 100%;
+    display: table;
+    height: 100%;
+}
+
+.tableHeading{
+    display: table-caption;
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: center;
+}
+
+.tableHeaders{
+    display: table-header-group;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.tableHeaderCell{
+    display: table-cell;
+    padding: 10px;
+    border: 1px black solid;
+    text-align: center;
+    
+}
+
+.tableBody{
+    display: table-row-group;
+}
+
+.tableRow{
+    display: table-row;
+}
+
+.tableBodyCell{
+    display: table-cell;
+    min-height: 100px;
+    border: 1px black solid;
+    text-align: center;
+}
+
+.tableFooter{
+    display: table-footer-group;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.tableFooterCell{
+    display: table-cell;
+    padding: 10px;
+    text-align: justify;
+    border-bottom: 1px solid black ;
+}
+
+.homepage{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+}
+
+.homepage .sideSelector{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 100%;
+    justify-content: space-evenly;
+    border-right:2px solid red ;
+    background-color: #ffc2bd;
+    overflow: auto;
+    padding : 0em 1em;
+}
+
+.sideSelector .navigator div:last-child{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.homepage .viewer{
+    width: 80%;
+    height: 80%;
+    overflow: auto;
+}
